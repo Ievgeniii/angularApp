@@ -1,0 +1,36 @@
+input.ng-invalid.ng-touched {
+  border: 2px solid red;
+}
+label {
+  display: block;
+}
+.main {
+  background: #f4f4f4;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+input {
+  outline: none;
+  padding: 10px;
+  border: 2px solid #89adb2;
+}
+.btn-small {
+  outline: none;
+  background: #89adb2;
+  border: none;
+  color: white;
+  margin: 8px 0 0 2px;
+}
+.btn-small:hover {
+  background: #489aa5;
+  cursor: pointer;
+}
+.btn-small:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+

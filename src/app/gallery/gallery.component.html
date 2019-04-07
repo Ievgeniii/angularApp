@@ -1,0 +1,17 @@
+<div class="top">
+  <h1>Welcome to Gallery!</h1>
+  <p>Here you can view existing images on the server</p>
+  <button (click)="loadImages()">Show Images</button>
+</div>
+
+<div class="images">
+  <div *ngFor="let x of images" class="card">
+    <div class="img">
+      <img src="{{x.flag}}" alt="{{x.name}}">
+    </div>
+    <div class="text">
+      <p>{{x.name}}</p>
+    </div>
+  </div>
+</div>
+<router-outlet></router-outlet>
