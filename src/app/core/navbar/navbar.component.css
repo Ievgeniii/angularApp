@@ -2,15 +2,19 @@
   display: flex;
   background: #89adb2;
 }
-.navbar a {
+a {
   display: block;
   padding: 30px;
   text-decoration: none;
-  color: white;
   font-size: 20px;
   transition: all .5s;
+  color: white;
 }
 .navbar a:hover {
   background: #489aa5;
-  color: orange
+  color: orange;
+}
+.active {
+  background: #489aa5;
+  color: orange;
 }
