@@ -4,4 +4,10 @@ p {
 div {
   padding: 20px;
 }
-
+a {
+  color: #89adb2;
+  text-decoration: none;
+}
+a:hover::after {
+  content: " \2192";
+}
