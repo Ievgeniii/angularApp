@@ -4,11 +4,11 @@ import { Routes, RouterModule } from '@angular/router';
 import { UsersComponent } from './users.component';
 import { CreateUserComponent } from './create-user/create-user.component';
 
-let routes: Routes = [
+const routes: Routes = [
   {path: 'users', component: UsersComponent, children: [
     {path: 'createuser', component: CreateUserComponent}
   ]}
-]
+];
 
 @NgModule({
   imports: [

@@ -4,7 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomepageComponent } from './core/homepage/homepage.component';
 import {PageNotFoundComponent} from './page-not-found/page-not-found.component';
 
-let routes: Routes = [
+const routes: Routes = [
   {path: '', component: HomepageComponent},
   {path: 'not-found', component: PageNotFoundComponent},
   {path: '**', redirectTo: '/not-found'}
